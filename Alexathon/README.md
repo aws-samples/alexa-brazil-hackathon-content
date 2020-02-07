@@ -3,19 +3,14 @@ Workshop, material de apoio e regras da Hackaton de Alexthon
 
 ## Agenda:
 - 9:00 – 9:10 Recepção e check-in.
-- 9:10 – 12:00 Workshops de Design de Voz e Criação de Skills.
-- 12:00 – 1:00 Almoço.
-- 1:00 – 8:00 Criação de Skills.
-- 8:00 – 9:00 Apresentação dos Pitches e Premiação.
-- 9:00 – 10:30 Happy Hour e Networking.
+- 9:30 – 11:00 Workshops de Design de Voz e Criação de Skills.
+- 11:00 – 11:30 Apresentação SAS e problemática
+- 11:00 – 20:00 Criação de Skills.
+- 20:00 – 21:00 Apresentação dos Pitches e Premiação.
+- 21:00 – 21:30 Happy Hour e Networking.
 
 
 ## Temas:
-1. Melhoria de desempenho dos Alunos.
-2. Smart Campus.
-3. Alunos com nescessidades especiais.
-4. Agenda de estudos.
-5. Ferramentas para o professor.
 
 
 ## Regras:
@@ -57,5 +52,4 @@ Configurando o back-end de uma skill: https://www.youtube.com/watch?v=Vi3oGj1k0W
 3. Simplifique escolhas
 4. Inclua uma variedade de respostas
 5. Provenha ajuda contextual
-6. Faça testes beta
 
