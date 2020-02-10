@@ -1,0 +1,4 @@
+ask-sdk==1.5.0
+ask-sdk-core==1.5.0
+ask-sdk-runtime==1.5.0
+ask-sdk-dynamodb-persistence-adapter==1.5.0

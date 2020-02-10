@@ -1,0 +1,279 @@
+{
+    "interactionModel": {
+        "languageModel": {
+            "invocationName": "ice cream parlor",
+            "intents": [
+                {
+                    "name": "AMAZON.FallbackIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.CancelIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.HelpIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.StopIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.NavigateHomeIntent",
+                    "samples": []
+                },
+                {
+                    "name": "StartIntent",
+                    "slots": [],
+                    "samples": [
+                        "Initiate ice cream creation",
+                        "start",
+                        "begin",
+                        "lets make some ice cream",
+                        "lets make something",
+                        "Lets start"
+                    ]
+                },
+                {
+                    "name": "IceCreamBuilderIntent",
+                    "slots": [
+                        {
+                            "name": "flavor",
+                            "type": "IceCreamFlavor",
+                            "samples": [
+                                "{flavor} ice cream",
+                                "{flavor}",
+                                "give me {flavor} ice cream",
+                                "I want {flavor} ice cream",
+                                "I want {flavor}",
+                                "Give me {flavor}"
+                            ]
+                        },
+                        {
+                            "name": "topping",
+                            "type": "ToppingType"
+                        }
+                    ],
+                    "samples": [
+                        "{flavor}",
+                        "{flavor} ice cream",
+                        "Give me {flavor} Ice cream and {topping} with {topping}",
+                        "I want {flavor} with {topping}",
+                        "I want {flavor} ice cream with {topping}",
+                        "I want {flavor} ice cream"
+                    ]
+                },
+                {
+                    "name": "addToppingIntent",
+                    "slots": [
+                        {
+                            "name": "topping",
+                            "type": "ToppingType",
+                            "samples": [
+                                "More {topping}",
+                                "More {topping} please",
+                                "Please give me {topping}",
+                                "Give me {topping}",
+                                "I want {topping}",
+                                "{topping}"
+                            ]
+                        }
+                    ],
+                    "samples": [
+                        "add a {topping}",
+                        "More {topping}",
+                        "dont forget the {topping}",
+                        "Please add {topping}",
+                        "Extra {topping}",
+                        "Add {topping}"
+                    ]
+                },
+                {
+                    "name": "FinishIntent",
+                    "slots": [],
+                    "samples": [
+                        "no more",
+                        "done",
+                        "all done",
+                        "Finished"
+                    ]
+                }
+            ],
+            "types": [
+                {
+                    "name": "IceCreamFlavor",
+                    "values": [
+                        {
+                            "name": {
+                                "value": "strawberry"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Mint chip",
+                                "synonyms": [
+                                    "mint chocolate chip"
+                                ]
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Peanut butter"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Moose tracks"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Rocky Road"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Cookies and cream"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Caramel"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Vanilla"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Chocolate"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "name": "ToppingType",
+                    "values": [
+                        {
+                            "name": {
+                                "value": "fudge"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "powdered sugar"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "almonds"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "caramel"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "cherry",
+                                "synonyms": [
+                                    "cherries"
+                                ]
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "chocolate syrup"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "sprinkles"
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        "dialog": {
+            "intents": [
+                {
+                    "name": "IceCreamBuilderIntent",
+                    "confirmationRequired": false,
+                    "prompts": {},
+                    "slots": [
+                        {
+                            "name": "flavor",
+                            "type": "IceCreamFlavor",
+                            "confirmationRequired": false,
+                            "elicitationRequired": true,
+                            "prompts": {
+                                "elicitation": "Elicit.Slot.358142955209.1164183667002"
+                            }
+                        },
+                        {
+                            "name": "topping",
+                            "type": "ToppingType",
+                            "confirmationRequired": false,
+                            "elicitationRequired": false,
+                            "prompts": {}
+                        }
+                    ]
+                },
+                {
+                    "name": "addToppingIntent",
+                    "confirmationRequired": false,
+                    "prompts": {},
+                    "slots": [
+                        {
+                            "name": "topping",
+                            "type": "ToppingType",
+                            "confirmationRequired": false,
+                            "elicitationRequired": true,
+                            "prompts": {
+                                "elicitation": "Elicit.Slot.480454633222.663292058891"
+                            }
+                        }
+                    ]
+                }
+            ],
+            "delegationStrategy": "ALWAYS"
+        },
+        "prompts": [
+            {
+                "id": "Elicit.Slot.358142955209.1164183667002",
+                "variations": [
+                    {
+                        "type": "PlainText",
+                        "value": "What is your favorite ice cream?"
+                    },
+                    {
+                        "type": "PlainText",
+                        "value": "Would you like Chocolate or Vanilla Ice cream?"
+                    },
+                    {
+                        "type": "PlainText",
+                        "value": "What flavor of ice cream do you want?"
+                    }
+                ]
+            },
+            {
+                "id": "Elicit.Slot.480454633222.663292058891",
+                "variations": [
+                    {
+                        "type": "PlainText",
+                        "value": "What would you like on top of the ice cream?"
+                    },
+                    {
+                        "type": "PlainText",
+                        "value": "What topping would you like to add?"
+                    }
+                ]
+            }
+        ]
+    }
+}
