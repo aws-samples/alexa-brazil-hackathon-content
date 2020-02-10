@@ -1,0 +1,125 @@
+{
+    "interactionModel": {
+        "languageModel": {
+            "invocationName": "demonstração para maratona",
+            "intents": [
+                {
+                    "name": "AMAZON.CancelIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.HelpIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.StopIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.NavigateHomeIntent",
+                    "samples": []
+                },
+                {
+                    "name": "CaptureBirthdayIntent",
+                    "slots": [
+                        {
+                            "name": "month",
+                            "type": "AMAZON.Month"
+                        },
+                        {
+                            "name": "day",
+                            "type": "AMAZON.NUMBER",
+                            "samples": [
+                                "Nasci {day}",
+                                "{day}"
+                            ]
+                        },
+                        {
+                            "name": "year",
+                            "type": "AMAZON.FOUR_DIGIT_NUMBER",
+                            "samples": [
+                                "Nasci no ano de {year}"
+                            ]
+                        }
+                    ],
+                    "samples": [
+                        "Eu nasci em {month} de {year}",
+                        "Eu nasci dia {day} de {month} ",
+                        "{month} de {year}",
+                        "{day} de {month} de {year}",
+                        "{day} de {month} ",
+                        "Nasci dia {day} de {month} de {year} "
+                    ]
+                }
+            ],
+            "types": []
+        },
+        "dialog": {
+            "intents": [
+                {
+                    "name": "CaptureBirthdayIntent",
+                    "confirmationRequired": false,
+                    "prompts": {},
+                    "slots": [
+                        {
+                            "name": "month",
+                            "type": "AMAZON.Month",
+                            "confirmationRequired": false,
+                            "elicitationRequired": true,
+                            "prompts": {
+                                "elicitation": "Elicit.Slot.1323207333291.110752114450"
+                            }
+                        },
+                        {
+                            "name": "day",
+                            "type": "AMAZON.NUMBER",
+                            "confirmationRequired": false,
+                            "elicitationRequired": true,
+                            "prompts": {
+                                "elicitation": "Elicit.Slot.1323207333291.563366041005"
+                            }
+                        },
+                        {
+                            "name": "year",
+                            "type": "AMAZON.FOUR_DIGIT_NUMBER",
+                            "confirmationRequired": false,
+                            "elicitationRequired": true,
+                            "prompts": {
+                                "elicitation": "Elicit.Slot.1323207333291.854898796228"
+                            }
+                        }
+                    ]
+                }
+            ],
+            "delegationStrategy": "ALWAYS"
+        },
+        "prompts": [
+            {
+                "id": "Elicit.Slot.1323207333291.110752114450",
+                "variations": [
+                    {
+                        "type": "PlainText",
+                        "value": "Em qual mês você nasceu?"
+                    }
+                ]
+            },
+            {
+                "id": "Elicit.Slot.1323207333291.563366041005",
+                "variations": [
+                    {
+                        "type": "PlainText",
+                        "value": "Qual o dia do seu nascimento?"
+                    }
+                ]
+            },
+            {
+                "id": "Elicit.Slot.1323207333291.854898796228",
+                "variations": [
+                    {
+                        "type": "PlainText",
+                        "value": "Em que ano você nasceu?"
+                    }
+                ]
+            }
+        ]
+    }
