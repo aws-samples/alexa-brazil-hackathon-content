@@ -5,7 +5,7 @@ Workshop, material de apoio e regras da Hackaton de Alexthon
 - 9:00 – 9:10 Recepção e check-in.
 - 9:30 – 11:00 Workshops de Design de Voz e Criação de Skills.
 - 11:00 – 11:30 Apresentação SAS e problemática
-- 11:00 – 20:00 Criação de Skills.
+- 11:30 – 20:00 Criação de Skills.
 - 20:00 – 21:00 Apresentação dos Pitches e Premiação.
 - 21:00 – 21:30 Happy Hour e Networking.
 
