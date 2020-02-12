@@ -1,7 +1,9 @@
 # Alexathon
-Workshop, material de apoio e regras da Hackaton de Alexthon
+
+Workshop, material de apoio e regras da Hackaton de Alexathon
 
 ## Agenda:
+
 - 9:00 – 9:10 Recepção e check-in.
 - 9:10 – 12:00 Workshops de Design de Voz e Criação de Skills.
 - 12:00 – 1:00 Almoço.
@@ -11,19 +13,21 @@ Workshop, material de apoio e regras da Hackaton de Alexthon
 
 
 ## Temas:
+
 1. Melhoria de desempenho dos Alunos.
 2. Smart Campus.
-3. Alunos com nescessidades especiais.
+3. Alunos com necessidades especiais.
 4. Agenda de estudos.
 5. Ferramentas para o professor.
 
 
 ## Regras:
+
   - Seu time tem 7 horas para desenvolver uma Skill baseada em algum dos temas propostos na apresentação do evento.
   - A Skill desevolvida pelo seu time deve estar em Português (Brasil).
   - O pitch da sua Skill deve ter no maximo 5 minutos e deve incluir uma demonstração.
   - Sua Skill deve ser original.
-  - Sua equipe pode usar qualquer recurso fora do Alexa Hosted-Skill
+  - Sua equipe pode usar qualquer recurso fora do Alexa Hosted-Skill.
   
 ## Materiais de apoio:
 
@@ -41,7 +45,7 @@ Skillinator: https://skillinator.io/ / Alternativa (caso skillinator esteja fora
 
 Configurando o back-end de uma skill: https://www.youtube.com/watch?v=Vi3oGj1k0W0&t=169s
 
-Converer audio para formatos aceitos pela alexa: https://www.jovo.tech/audio-converter
+Converter audio para formatos aceitos pela Alexa: https://www.jovo.tech/audio-converter
 
 Bibliotecas SDK (AWS):
 
@@ -51,9 +55,10 @@ Python: https://boto3.amazonaws.com/v1/documentation/api/latest/reference/servic
 
 Java: https://sdk.amazonaws.com/java/api/latest/
 
-Usando S3 pelo python: https://boto3.amazonaws.com/v1/documentation/api/latest/reference/services/s3.html
+Usando S3 pelo Python: https://boto3.amazonaws.com/v1/documentation/api/latest/reference/services/s3.html
 
-## Design de voz, chechklist:
+## Design de voz, checklist:
+
 1. Idealize
 2. Identifique seus usuários
 3. Faça o script!	
