@@ -4,17 +4,17 @@ Workshop, material de apoio e regras da Hackaton de Alexathon
 
 ## Agenda:
 
-- 9:00 - 9:30 Recepção e check-in.
-- 9:30 - 9:45 Boas-Vindas.
-- 9:45 - 11:00 Workshops de Design de Voz e Criação de Skills.
-- 11:00 - 11:30 O Mercado de Educação e o SAS.
-- 11:30 - 12:00 Formação dos times.
-- 12:00 - 16:00 Criação das Skills.
-- 16:00 - 16:30 Chill Break.
-- 16:30 - 20:00 Criação das Skills.
-- 20:00 - 20:30 Preparar demo + Pizza.
-- 20:30 - 22:00 Apresentações.
-- 22:00 - 22:30 Premiação, Happy Hour e Networking.
+    9:00 - 9:30 Recepção e check-in.
+    9:30 - 9:45 Boas-Vindas.
+    9:45 - 11:00 Workshops de Design de Voz e Criação de Skills.
+    11:00 - 11:30 O Mercado de Educação e o SAS.
+    11:30 - 12:00 Formação dos times.
+    12:00 - 16:00 Criação das Skills.
+    16:00 - 16:30 Chill Break.
+    16:30 - 20:00 Criação das Skills.
+    20:00 - 21:00 Apresentações
+    21:00 - 22:30 Premiação, Happy Hour e Networking.
+
 
 Obs: Os momentos de lanches e coffe não impediremos a continuidade das atividades então as equipes podem se organizar/revezar entre quem lancha e desenvolve da forma que acharem mais interessante.
 
