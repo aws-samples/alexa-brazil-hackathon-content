@@ -4,31 +4,28 @@ Workshop, material de apoio e regras da Hackaton de Alexathon
 
 ## Agenda:
 
-- 9:00 – 9:10 Recepção e check-in.
-- 9:10 – 12:00 Workshops de Design de Voz e Criação de Skills.
-- 12:00 – 1:00 Almoço.
-- 1:00 – 8:00 Criação de Skills.
-- 8:00 – 9:00 Apresentação dos Pitches e Premiação.
-- 9:00 – 10:30 Happy Hour e Networking.
+- 9:00 - 9:30 Recepção e check-in.
+- 9:30 - 9:45 Boas-Vindas.
+- 9:45 - 11:00 Workshops de Design de Voz e Criação de Skills.
+- 11:00 - 11:30 O Mercado de Educação e o SAS.
+- 11:30 - 12:00 Formação dos times.
+- 12:00 - 16:00 Criação das Skills.
+- 16:00 - 16:30 Chill Break.
+- 16:30 - 20:00 Criação das Skills.
+- 20:00 - 20:30 Preparar demo + Pizza.
+- 20:30 - 22:00 Apresentações.
+- 22:00 - 22:30 Premiação, Happy Hour e Networking.
 
-
-## Temas (sugeridos):
-
-1. Melhoria de desempenho dos Alunos.
-2. Smart Campus.
-3. Alunos com necessidades especiais.
-4. Agenda de estudos.
-5. Ferramentas para o professor.
-
+Obs: Os momentos de lanches e coffe não impediremos a continuidade das atividades então as equipes podem se organizar/revezar entre quem lancha e desenvolve da forma que acharem mais interessante.
 
 ## Regras:
 
-  - Seu time tem 7 horas para desenvolver uma Skill baseada em algum dos temas propostos na apresentação do evento.
-  - A Skill desevolvida pelo seu time deve estar em Português (Brasil).
-  - O pitch da sua Skill deve ter no maximo 5 minutos e deve incluir uma demonstração.
+  - Seu time tem 8 horas para desenvolver uma Skill baseada em algum dos temas propostos na apresentação do evento.
+  - A Skill desenvolvida pelo seu time deve estar em Português (Brasil).
+  - O pitch da sua Skill deve ter no máximo 5 minutos e deve incluir uma demonstração.
   - Sua Skill deve ser original.
   - Sua equipe pode usar qualquer recurso fora do Alexa Hosted-Skill.
-  
+
 ## Materiais de apoio:
 
 Alexa SDK (Python, Node.js e Java): https://developer.amazon.com/docs/alexa-skills-kit-sdk-for-python/overview.html
@@ -61,8 +58,8 @@ Usando S3 pelo Python: https://boto3.amazonaws.com/v1/documentation/api/latest/r
 
 1. Idealize
 2. Identifique seus usuários
-3. Faça o script!	
-4. Anote sinônimos de fala	
+3. Faça o script!
+4. Anote sinônimos de fala
 5. Encontre "slots" na lógica contextual
 6. Reduza o desgaste das conversas
 
@@ -75,4 +72,3 @@ Usando S3 pelo Python: https://boto3.amazonaws.com/v1/documentation/api/latest/r
 4. Inclua uma variedade de respostas
 5. Provenha ajuda contextual
 6. Faça testes beta
-
