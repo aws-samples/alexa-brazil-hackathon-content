@@ -12,7 +12,7 @@ Workshop, material de apoio e regras da Hackaton de Alexathon
 - 9:00 – 10:30 Happy Hour e Networking.
 
 
-## Temas:
+## Temas (sugeridos):
 
 1. Melhoria de desempenho dos Alunos.
 2. Smart Campus.
