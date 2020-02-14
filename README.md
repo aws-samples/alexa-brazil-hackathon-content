@@ -2,6 +2,8 @@
 
 Workshop, material de apoio e regras da Hackaton de Alexathon.
 
+<p align="center"><img src="images/alexa.png" height="250" weight="250"/></p>
+
 ## Agenda:
 
     9:00 - 9:30 Recepção e check-in.
