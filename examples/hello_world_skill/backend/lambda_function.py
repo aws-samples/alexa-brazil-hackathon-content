@@ -45,7 +45,8 @@ class HelloWorldIntentHandler(AbstractRequestHandler):
 
     def handle(self, handler_input):
         # type: (HandlerInput) -> Response
-        speak_output = "Olá mundo!"
+        speak_output = "Olá mundo! <voice name='Giorgio'>Olá mundo!</voice>"
+        # <audio src="https://martinig-media.s3.amazonaws.com/new_reflexoes.mp3" />
 
         return (
             handler_input.response_builder
