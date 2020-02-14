@@ -1,1 +1,9 @@
+# MAC
 .DS_Store
+
+# Python
+alexaenv
+
+# Lambda
+package
+function.zip

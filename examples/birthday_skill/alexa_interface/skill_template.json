@@ -1,0 +1,132 @@
+{
+    "interactionModel": {
+        "languageModel": {
+            "invocationName": "meu aniversário",
+            "intents": [
+                {
+                    "name": "AMAZON.CancelIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.HelpIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.StopIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.NavigateHomeIntent",
+                    "samples": []
+                },
+                {
+                    "name": "CaptureBirthdayIntent",
+                    "slots": [
+                        {
+                            "name": "dia",
+                            "type": "AMAZON.NUMBER",
+                            "samples": [
+                                "{dia}",
+                                "eu nasci dia {dia}",
+                                "foi no dia {dia}"
+                            ]
+                        },
+                        {
+                            "name": "mes",
+                            "type": "AMAZON.Month",
+                            "samples": [
+                                "eu nasci no mês de {mes}",
+                                "{mes}"
+                            ]
+                        },
+                        {
+                            "name": "ano",
+                            "type": "AMAZON.FOUR_DIGIT_NUMBER",
+                            "samples": [
+                                "nasci em {ano}",
+                                "em {ano}"
+                            ]
+                        }
+                    ],
+                    "samples": [
+                        "nasci dia {dia} de {mes} de {ano}",
+                        "nasci em {dia} do mês de {mes} do ano de {ano}"
+                    ]
+                }
+            ],
+            "types": []
+        },
+        "dialog": {
+            "intents": [
+                {
+                    "name": "CaptureBirthdayIntent",
+                    "confirmationRequired": false,
+                    "prompts": {},
+                    "slots": [
+                        {
+                            "name": "dia",
+                            "type": "AMAZON.NUMBER",
+                            "confirmationRequired": false,
+                            "elicitationRequired": true,
+                            "prompts": {
+                                "elicitation": "Elicit.Slot.854886901718.1500228794168"
+                            }
+                        },
+                        {
+                            "name": "mes",
+                            "type": "AMAZON.Month",
+                            "confirmationRequired": false,
+                            "elicitationRequired": true,
+                            "prompts": {
+                                "elicitation": "Elicit.Slot.854886901718.649274849562"
+                            }
+                        },
+                        {
+                            "name": "ano",
+                            "type": "AMAZON.FOUR_DIGIT_NUMBER",
+                            "confirmationRequired": false,
+                            "elicitationRequired": true,
+                            "prompts": {
+                                "elicitation": "Elicit.Slot.854886901718.1540133620182"
+                            }
+                        }
+                    ]
+                }
+            ],
+            "delegationStrategy": "ALWAYS"
+        },
+        "prompts": [
+            {
+                "id": "Elicit.Slot.854886901718.1500228794168",
+                "variations": [
+                    {
+                        "type": "PlainText",
+                        "value": "Eu nasci no dia vinte, e você?"
+                    },
+                    {
+                        "type": "PlainText",
+                        "value": "me diga o dia em que nasceu"
+                    }
+                ]
+            },
+            {
+                "id": "Elicit.Slot.854886901718.649274849562",
+                "variations": [
+                    {
+                        "type": "PlainText",
+                        "value": "Eu nasci em agosto e você?"
+                    }
+                ]
+            },
+            {
+                "id": "Elicit.Slot.854886901718.1540133620182",
+                "variations": [
+                    {
+                        "type": "PlainText",
+                        "value": "Eu nasci em dois mil, e você?"
+                    }
+                ]
+            }
+        ]
+    }
+}

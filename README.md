@@ -79,3 +79,7 @@ Caso queira se aprofundar um pouco mais no desenvolvimento de aplicações serve
 4. Inclua uma variedade de respostas
 5. Provenha ajuda contextual
 6. Faça testes beta
+
+
+## License summary
+This sample code is made available under the MIT-0 license. See the LICENSE file.
