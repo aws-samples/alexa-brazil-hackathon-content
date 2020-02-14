@@ -1,8 +1,10 @@
 # Alexathon
 
-Workshop, material de apoio e regras da Hackaton de Alexathon.
+Este repositório contém o material de apoio e regras do Hackaton de Alexa.
 
+</br>
 <p align="center"><img src="images/alexa.png" height="250" weight="250"/></p>
+</br>
 
 ## Agenda:
 
@@ -30,7 +32,7 @@ Obs: Os momentos de lanches e coffe não impediremos a continuidade das atividad
 
 ## Materiais de apoio:
 
-Nesse repositório você pode encontrar os exemplos que demonstramos no workshop na pasta **examples**. Cada exemplo está divido em etapas, e você pode verificar cada etapa de construção modificando o branch do repositório. Por exemplo: 
+Nesse repositório você pode encontrar os exemplos que demonstramos no workshop na pasta **examples**. O exemplo **hello_world_skill** está divido em etapas, e você pode verificar cada etapa de construção modificando o branch do repositório. Por exemplo: 
 ```
   git checkout v1 #versão inicial da skill
   git checkout v2 #implementação de features como ssml e interação com o S3
@@ -53,6 +55,11 @@ Além disso, você pode utilizar a documentação da Alexa e da AWS:
   * Python: https://boto3.amazonaws.com/v1/documentation/api/latest/reference/services/index.html
   * Java: https://sdk.amazonaws.com/java/api/latest/
   * Usando S3 pelo Python: https://boto3.amazonaws.com/v1/documentation/api/latest/reference/services/s3.html
+
+Caso queira se aprofundar um pouco mais no desenvolvimento de aplicações serverless, você pode consultar esses materiais:
+
+* O que é Serverless: https://aws.amazon.com/serverless/?nc1=h_ls
+* AWS Serverless Framework: https://aws.amazon.com/serverless/sam/
 
 ## Design de voz, checklist:
 
