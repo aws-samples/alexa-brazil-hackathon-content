@@ -32,13 +32,7 @@ Obs: Os momentos de lanches e coffe não impediremos a continuidade das atividad
 
 ## Materiais de apoio:
 
-Nesse repositório você pode encontrar os exemplos que demonstramos no workshop na pasta **examples**. O exemplo **hello_world_skill** está divido em etapas, e você pode verificar cada etapa de construção modificando o branch do repositório. Por exemplo: 
-```
-  git checkout v1 #versão inicial da skill
-  git checkout v2 #implementação de features como ssml e interação com o S3
-  git checkout master #versão final da demonstração
-```
-
+Nesse repositório você pode encontrar os exemplos que demonstramos no workshop na pasta **examples**.
 
 Além disso, você pode utilizar a documentação da Alexa e da AWS:
 
