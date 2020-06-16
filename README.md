@@ -8,16 +8,12 @@ Este repositório contém o material de apoio e regras do Hackaton de Alexa.
 
 ## Agenda:
 
-    9:00 - 9:30 Recepção e check-in.
-    9:30 - 9:45 Boas-Vindas.
-    9:45 - 11:00 Workshops de Design de Voz e Criação de Skills.
-    11:00 - 11:30 O Mercado de Educação e o SAS.
-    11:30 - 12:00 Formação dos times.
-    12:00 - 16:00 Criação das Skills.
-    16:00 - 16:30 Chill Break.
-    16:30 - 20:00 Criação das Skills.
-    20:00 - 21:00 Apresentações
-    21:00 - 22:30 Premiação, Happy Hour e Networking.
+    9:00 – 9:15 Boas-Vindas.
+    9:15 – 10:00 Workshops de Design de Voz e Criação de Skills.
+    10:00 – 18:00 Criação de skills.
+    18:00 – 19:00 Apresentação.
+    19:00 – 19:30 Premiação e Agradecimentos.
+
 
 
 Obs: Os momentos de lanches e coffe não impediremos a continuidade das atividades então as equipes podem se organizar/revezar entre quem lancha e desenvolve da forma que acharem mais interessante.
@@ -36,6 +32,7 @@ Nesse repositório você pode encontrar os exemplos que demonstramos no workshop
 
 Além disso, você pode utilizar a documentação da Alexa e da AWS:
 
+* Exemplos do uso de API Alexa: https://github.com/alexa/alexa-cookbook
 * Alexa SDK (Python, Node.js e Java): https://developer.amazon.com/docs/alexa-skills-kit-sdk-for-python/overview.html
 * Alexa Skills Kit : https://developer.amazon.com/en-US/alexa/alexa-skills-kit
 * Cake Walk (Skill criada do 0 com memória persistente): https://developer.amazon.com/pt-BR/alexa/alexa-skills-kit/courses/cake-walk-1
