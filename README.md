@@ -32,8 +32,8 @@ Este repositório contém o material de apoio e regras do Hackaton de Alexa.
 
     9:00 – 9:15 Boas-Vindas.
     9:15 – 10:00 Workshops de Design de Voz e Criação de Skills.
-    10:00 – 18:00 Criação de skills.
-    18:00 – 19:00 Apresentação.
+    10:00 – 18:30 Criação de skills.
+    18:30 – 19:00 Apresentação.
     19:00 – 19:30 Premiação e Agradecimentos.
 
 
