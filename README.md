@@ -6,6 +6,28 @@ Este repositório contém o material de apoio e regras do Hackaton de Alexa.
 <p align="center"><img src="images/alexa.png" height="250" weight="250"/></p>
 </br>
 
+* *Governo*
+    * Consultas de serviços ao cidadão
+    * Consultas de pendências institucionais
+    * Consulta de situação orçamentária para tomada de decisão
+    * Consultas jurídicas
+    * Agendamento de serviço ao cidadão
+
+
+* *Educação*
+    * Consulta de boletim
+    * Consulta de grade escolar e sala
+    * Comunicação pais e mestres
+    * Comunicação mestres e alunos
+    * Notificação de ausência escolar
+* *Saúde*
+    * Comunicação médicos e pacientes
+    * Consulta de dados do pacientes pelo médicos
+    * Agendamento de Consulta
+    * Notificação de alterações nos sinais vitais do paciente
+    * Lembretes de medicação
+    
+    
 ## Agenda:
 
     9:00 – 9:15 Boas-Vindas.
